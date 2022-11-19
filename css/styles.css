@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -37,3 +43,44 @@ p {
     margin-right: auto;
 }
 
+/* Favorites Styles */
+
+.favorites-section {}
+
+.favorites-title {
+    margin-bottom: 20px;
+    text-align: center;
+
+    font-size: 42px;
+    line-height: 1.16;
+}
+
+.favorites-text {
+    margin-bottom: 40px;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.item {
+}
+
+.fav-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    width: 395px;
+    height: 397px;
+
+    border: 16px solid #FFE550;
+    border-radius: 50%;
+}
