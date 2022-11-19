@@ -37,3 +37,42 @@ p {
     margin-right: auto;
 }
 
+
+/* hero */
+section.hero{
+    display: flex;
+    align-items: center;
+}
+
+.hero .title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero .text{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.hero .btn{
+    width: 98px;
+    height: 32px;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    background: #BBF330;
+    border-radius: 30px;
+}
+
+.hero .thumb{
+    min-width: 580px;
+    min-height: 580px;
+}
+
+.hero img{
+    margin-left: 152px;
+    border: 26px solid #FFE550;
+    border-radius: 269px;
+}
