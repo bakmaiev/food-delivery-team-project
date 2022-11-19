@@ -37,3 +37,66 @@ p {
     margin-right: auto;
 }
 
+/* -------------Хедер------------- */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-wrap {
+    display: flex;
+    margin-left: auto;
+}
+
+.navigation {
+    display: flex;
+}
+
+.header-logo {
+    width: 66px;
+    height: 52px;
+}
+
+.header-logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-link {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    color: #2C2C2C;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+    color: #BBF330;
+    text-decoration-line: underline;
+
+}
+
+.header-button {
+    margin-left: 30px;
+    padding: 6px 18px;
+    background: #BBF330;
+    border: 0px transparent;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: calc(20 / 13);
+    color: #2C2C2C;
+    cursor: pointer;
+}
