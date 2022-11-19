@@ -43,6 +43,47 @@ p {
     margin-right: auto;
 }
 
+/* hero */
+section.hero{
+    display: flex;
+    align-items: center;
+}
+
+.hero .title{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero .text{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero .btn{
+    width: 98px;
+    height: 32px;
+
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    background: #BBF330;
+    border-radius: 30px;
+}
+
+.hero .thumb{
+    width: 580px;
+    height: 580px;
+    margin-left: 152px;
+}
+
+.hero img{
+    width: 528px;
+    height: 528px;
+    border-radius: 269px;
+    border: 26px solid #FFE550;
+}
+
 /* Favorites Styles */
 
 .favorites-section {}
